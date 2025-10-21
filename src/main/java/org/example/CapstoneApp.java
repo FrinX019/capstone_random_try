@@ -17,6 +17,6 @@ public class CapstoneApp extends SpringBootServletInitializer {
 class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "Capstone Project Running!";
+        return "Capstone Project Running! this is just a normal try";
     }
 }
